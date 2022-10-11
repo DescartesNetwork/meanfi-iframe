@@ -2049,10 +2049,21 @@
     tweetnacl "^1.0.3"
     uuid "^8.3.2"
 
-"@sentre/craco-plugins@^1.0.45":
-  version "1.0.45"
-  resolved "https://registry.yarnpkg.com/@sentre/craco-plugins/-/craco-plugins-1.0.45.tgz#1ccbc6b102c8703cad6bb07f4b6792d0e826a23c"
-  integrity sha512-UXFStUF8KoleU1QKCarou5pL+CJ5xr4JPjUPnRJCiRsZNtGOOl0hSx+Kk73Kl9uRCcJ83xajGlQ5ESiWJzMXVg==
+"@sentre/connector@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@sentre/connector/-/connector-0.1.1.tgz#46364a22d615beeecaa30f84a2d45f77797a19ad"
+  integrity sha512-/LQ6HBtazIwQT43M3aiiiqoveqbTozqok4gzfBYGXXF4sEjb+3b/1LgUk1MgeT5r5EF5es+uOfWW9ulZiHnP4w==
+  dependencies:
+    "@solana/wallet-adapter-base" "^0.9.16"
+    "@solana/web3.js" "^1.54.0"
+    bs58 "^5.0.0"
+    tweetnacl "^1.0.3"
+    uuid "^8.3.2"
+
+"@sentre/craco-plugins@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@sentre/craco-plugins/-/craco-plugins-2.0.0.tgz#58869e911254c37f43c92e99b9d267b5729ef576"
+  integrity sha512-sq494P24Jnp6gkYMVBQV8dLW+1qTIdcS8iulpvaYLM+B8mrmoP/7larbjUgNl41nEReH8yvyPGO8VeNCAUDcVw==
   dependencies:
     "@babel/cli" "^7.17.10"
     "@babel/core" "^7.18.2"
@@ -2085,12 +2096,12 @@
     util "^0.12.4"
     webpack-bundle-analyzer "^4.5.0"
 
-"@sentre/embeded-view@^1.0.45":
-  version "1.0.45"
-  resolved "https://registry.yarnpkg.com/@sentre/embeded-view/-/embeded-view-1.0.45.tgz#c4538546831071139126481d633c026ae7764b5b"
-  integrity sha512-74opzeMYnSAaEcaI8KUtl9KQEo3EdxIwoF2ZGU+WTnJ/vCCQbk4T+Nvfnzqtdw5AhGzsqm3lVLeua01ppYgLdw==
+"@sentre/embeded-view@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@sentre/embeded-view/-/embeded-view-2.0.0.tgz#07138a8564b1af8e6674eabbbe17418cd6d95d4e"
+  integrity sha512-+64gqvKqIPWxVkVHWVoBb3gFnZog3YtFF5bFPDZedcP1DZnw5CS/wpQgtvuqVK/dtRcGDV24Vy7sAK3Ml1w+Mg==
   dependencies:
-    "@sentre/connector" "^0.1.0"
+    "@sentre/connector" "^0.1.1"
 
 "@sentre/react-dynamic-remote-component@^0.0.6":
   version "0.0.6"
