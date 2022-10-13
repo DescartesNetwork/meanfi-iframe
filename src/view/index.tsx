@@ -23,7 +23,7 @@ const View = () => {
       appId={appId}
       src={'https://app.meanfi.com/'}
       title="Manage Your Treasury With Real-Time Finance"
-      wallet={window.sentre.wallet}
+      wallet={window.sentre.solana}
     />
   )
 }
