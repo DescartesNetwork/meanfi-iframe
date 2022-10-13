@@ -1,5 +1,4 @@
-import { useEffect } from 'react'
-import { net, useSetBackground } from '@sentre/senhub'
+import { net } from '@sentre/senhub'
 
 import EmbededView from '@sentre/embeded-view'
 
@@ -11,12 +10,6 @@ const {
 } = configs
 
 const View = () => {
-  const setBackground = useSetBackground()
-
-  useEffect(() => {
-    setBackground({ light: '#ffffff', dark: '#10121d' })
-  }, [setBackground])
-
   if (net !== 'mainnet') return <MainnetOnly />
   return (
     <EmbededView
